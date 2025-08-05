@@ -34,13 +34,6 @@ jobs:
       - name: Check Out Source Code
         uses: actions/checkout@v4
 
-      # Java is required to run the various Fortify utilities. Ensuring proper version is installed on the runner.
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          java-version: 17
-          distribution: 'temurin'
-
       # Perform Fortify on Demand SAST + SCA scan and import SAST results into GitHub code scanning alerts
       - name: Run SAST Scan
         uses: fortify/github-action/sc-sast-scan@v2
