@@ -52,7 +52,7 @@ jobs:
           SC_SAST_TOKEN: ${{secrets.SC_SAST_CLIENT_AUTH_TOKEN}}
           # SSC_LOGIN_EXTRA_OPTS: --socket-timeout=60s
           # DEBRICKED_TOKEN: ${{secrets.DEBRICKED_TOKEN}}
-          SSC_APPVERSION: IWA-DOTNET:github
+          SSC_APPVERSION: Eightball:github
           # DO_SETUP: true
           # SETUP_ACTION: https://scm.my.org/shared-repos/fcli-actions/setup.yaml
           # SETUP_EXTRA_OPTS: --on-unsigned=ignore
